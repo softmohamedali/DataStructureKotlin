@@ -1,7 +1,13 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import stack.StackBasedArray
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+    val m=StackBasedArray<String>(3)
+    m.push("dsf")
+    m.print()
+    m.push("r")
+    m.print()
+    m.push("v")
+    m.print()
+    m.push("vv")
+    m.print()
 }
