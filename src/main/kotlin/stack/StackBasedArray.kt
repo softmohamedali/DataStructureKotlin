@@ -15,7 +15,9 @@ class StackBasedArray<T>(
     }
 
     fun pop(){
-        top--
+        if (!isEmpty()){
+            top--
+        }
     }
 
     fun isEmpty():Boolean{
