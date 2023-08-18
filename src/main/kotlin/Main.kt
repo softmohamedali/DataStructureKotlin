@@ -7,6 +7,8 @@ fun main(args: Array<String>) {
     m.push("r")
     m.print()
     m.push("v")
+    println("pop = ${m.getTop()}")
+    m.pop()
     m.print()
     m.push("vv")
     m.print()
